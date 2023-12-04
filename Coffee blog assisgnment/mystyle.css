@@ -1,0 +1,55 @@
+/*global*/
+*{margin:0;
+padding: 0;}
+body{font-family: Arial;}
+P{line-height: 2;}
+img{max-width: 100%;}
+
+/*utilites*/
+.container{width: 50%;width: 80%; margin-left: auto; margin-right: auto;}
+.read-more-btn{display:inline-block ; background-color: black; color: white;text-decoration:none; padding: 10px;}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;}
+    
+.flex-containerbar{display: flex;
+    justify-content: space-between;
+    flex-direction: row; align-items: center}
+
+.more-information-btn{display:inline-block ; background-color: brown; color: white;text-decoration:none; padding: 5px;}
+/*header*/
+.site-init{background-image: url(./coffee-images-main/banner.jpg);background-size: cover;
+height:300px; color: white;}
+
+header{height: 300px;text-align: center;}
+
+.site-inita{color: white;}
+
+.site-secondary{background-color: black; height: 100px;}
+
+.site-secondary h1, .site-secondary a{color: white;
+    
+}
+/*footer*/
+.footer{background-color: black; height:200px; text-align: center; color: white; font-size: small; font-family: Arial, Helvetica, sans-serif ;}
+    /*body*/
+
+    /*contact*/
+
+    form{background-color: white;padding: 10px; margin-top: -80px;}
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-container{margin-bottom: 20px;}
+
+    .input-container input{border: 1px solid black;padding:3px; width:75%}
+
+.input-container label{display: inline-block;width: 80px;}
+
+
+.back-ground{font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-image: url(coffee-images-main/course3.jpg); /* Replace with your actual URL */ background-size: cover; background-position: center center; background-repeat: no-repeat; } header { background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background color for better readability over the image */ color: #fff; text-align: center; padding: 1em 0;}
